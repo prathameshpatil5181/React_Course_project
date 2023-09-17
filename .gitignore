@@ -1,0 +1,37 @@
+# Node.js / npm
+node_modules/
+npm-debug.log*
+yarn.lock
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+
+# Build files
+/build
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
+logs
+
+# Dependency directories
+pids
+*.pid
+*.pid.lock
+
+# Testing files
+/coverage
+
+# Output files
+/dist
+
+# OS-specific files
+.DS_Store
+Thumbs.db
