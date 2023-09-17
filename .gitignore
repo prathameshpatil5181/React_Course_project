@@ -35,3 +35,6 @@ pids
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+#Readmefile
+README.md
