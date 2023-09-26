@@ -2,7 +2,7 @@ import { Fragment, Component } from "react";
 
 import Users from "./Users";
 import classes from "./UserFinder.module.css";
-
+import UsersContext from "./store/users-context";
 const DUMMY_USERS = [
   { id: "u1", name: "Max" },
   { id: "u2", name: "Manuel" },
@@ -10,12 +10,19 @@ const DUMMY_USERS = [
 ];
 
 class UserFinder extends Component {
+
+    static contextType = UsersContext;
+
   constructor() {
     super();
     this.state = {
-      filteredUsers: DUMMY_USERS,
+      filteredUsers: [],
       searchTerm: "",
     };
+  }
+
+  componentDidMount(){
+    this.setState({filteredUsers : this.context.users})
   }
 
   componentDidUpdate(prevProps, prevState) {
@@ -34,12 +41,12 @@ class UserFinder extends Component {
 
   render() {
     return (
-      <Fragment>
+      <UsersContext>
         <div className={classes.finder}>
           <input type="search" onChange={this.searchChangeHandler.bind()} />
         </div>
         <Users users={this.state.filteredUsers} />
-      </Fragment>
+      </UsersContext>
     );
   }
 }
