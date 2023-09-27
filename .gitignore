@@ -1,0 +1,59 @@
+# Dependency directories
+/node_modules
+
+# Production build
+/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependency lock files
+yarn.lock
+package-lock.json
+
+# Coverage directory
+/coverage
+
+# Firebase configuration
+/src/firebaseConfig.js
+
+# IDE settings
+/.vscode/
+*.code-workspace
+
+# Jest snapshot directory
+/__snapshots__/
+
+# Production build directory
+/build/
+
+# Ignore build output in public directory
+/public/build/
+
+# Ignore build output in the development server
+/.webpack-dev-server/
+
+# Editor configuration files
+.editorconfig
+
