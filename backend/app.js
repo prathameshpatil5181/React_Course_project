@@ -4,6 +4,9 @@ const express = require('express');
 const eventRoutes = require('./routes/events');
 
 const app = express();
+const cors = require('cors'); // Import the cors middleware
+// Use the cors middleware
+app.use(cors());
 
 app.use(bodyParser.json());
 app.use((req, res, next) => {

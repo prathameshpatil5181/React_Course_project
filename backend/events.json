@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"kkkkkkkkk","image":"https://unsplash.com/photos/odxB5oIG_iA","date":"2023-10-10","description":"kkkkkkkkkkkkk","id":"f64bbb29-221f-4cc3-8007-b4c33edb60b1"},{"title":"jjjjjjjjjjjj","image":"https://unsplash.com/photos/odxB5oIG_iA","date":"2023-10-11","description":"hhhhhhhhhhhh","id":"0106aac6-f849-4f1d-b08e-def8fc2a8f6a"},{"title":"lllllll","image":"https://unsplash.com/photos/odxB5oIG_iA","date":"2023-10-10","description":"kkkkkkkkkkk","id":"ae86ce1d-beff-43fc-8149-1f66a645a90d"},{"title":"photograph","image":"https://unsplash.com/photos/odxB5oIG_iA","date":"2023-10-10","description":"hhhh","id":"c1641166-4364-4748-b0c8-569180df6089"},{"title":"Photography","image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fimage&psig=AOvVaw2mdlZsDhGhVfyPFuK-c8Ra&ust=1696961518430000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDZ9bXI6YEDFQAAAAAdAAAAABAE","date":"2023-10-09","description":"Photography event","id":"06349ff1-f1b2-4c52-8436-675d6162670e"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
